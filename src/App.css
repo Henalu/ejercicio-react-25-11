@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+#principal{
+  display: flex;
+  flex-direction: row;
+}
+#secundario{
+  display: flex;
+  flex-direction: row;
+  background-color: #ccc;
+  justify-content:space-evenly;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 40%;
+}
+#footer{
+  margin-top: 50px;
+  background-color: rgb(229, 229, 229);
+}
+
